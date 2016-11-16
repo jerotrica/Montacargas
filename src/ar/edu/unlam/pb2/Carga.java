@@ -2,19 +2,24 @@ package ar.edu.unlam.pb2;
 
 public class Carga  {
 
-	private Float peso;
+	private Integer peso;
 	
-	public Carga() {
-		this.peso= 0f;
+	public Carga(Integer peso) {
+		this.peso= peso;
 	}
 
-	public Float getPeso() {
+
+	public Integer getPeso() {
 		return peso;
 	}
 
-	public void setPeso(Float peso) {
+
+
+	public void setPeso(Integer peso) {
 		this.peso = peso;
 	}
+
+
 
 	@Override
 	public int hashCode() {
